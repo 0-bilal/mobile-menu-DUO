@@ -10,7 +10,7 @@ const restaurantInfo = {
   taglineAr:    'نكهة لا تُنسى في كل قضمة',
   logo:         'images/logo.ico',
   phone:        '..قريبا',
-  workingHours: '12:00 م – 03:00 ص',
+  workingHours: 'م12:00 - ص03:00',
   workingDays:  'طوال أيام الأسبوع',
 
   /* ─────────────────────────────────────────────────────────
@@ -21,7 +21,7 @@ const restaurantInfo = {
      مثال TikTok:   إذا كان الرابط https://tiktok.com/@theduoburger
                     اكتب فقط:  'theduoburger'
   ───────────────────────────────────────────────────────── */
-  instagram:    'duo_brger1',       // ← اسم حساب الإنستقرام (بدون @)
+  instagram:    'duo_burger1',       // ← اسم حساب الإنستقرام (بدون @)
   tiktok:       'theduoburger',     // ← اسم حساب التيك توك  (بدون @)
 
   address:      'مكة - حي الشوقية',
@@ -30,7 +30,7 @@ const restaurantInfo = {
   /* ─────────────────────────────────────────────────────────
      رابط الخريطة — انسخ الرابط الكامل من Google Maps
   ───────────────────────────────────────────────────────── */
-  googleMapsUrl: 'https://maps.app.goo.gl//ديو+برجر+DUO+BURGER%E2%80%AD/@21.377399,39.769425,16.83z/data=!4m6!3m5!1s0x15c21b003ee4d6c3:0xfae4e901ae19f8e0!8m2!3d21.3781865!4d39.768244!16s%2Fg%2F11zc3dx62w?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D',
+  googleMapsUrl: 'https://maps.app.goo.gl/vh6dvfB1u4w6f99s9',
 };
 
 const menuCategories = [
