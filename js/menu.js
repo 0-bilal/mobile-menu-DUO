@@ -48,10 +48,12 @@
 
     if (nameEl) nameEl.textContent = info.nameAr || '';
     if (tagEl)  tagEl.textContent  = info.taglineAr || '';
+    /* أوقات العمل — السطر الأول: الساعات · السطر الثاني: الأيام */
     if (hoursEl) {
-      const parts = [info.workingHours, info.workingDays].filter(Boolean);
-      hoursEl.textContent = parts.join(' · ');
+      hoursEl.textContent = info.workingHours || '';
     }
+    const daysEl = document.getElementById('m-hours-days');
+    if (daysEl) daysEl.textContent = info.workingDays || '';
     document.title = (info.nameAr || 'منيو') + ' | المنيو';
   }
 
@@ -342,8 +344,8 @@
 
     if (taxEl)  taxEl.textContent = info.taxNote || '';
     if (mapBtn)    { if (info.googleMapsUrl) mapBtn.href = info.googleMapsUrl; else mapBtn.style.display = 'none'; }
-    if (instaBtn)  { if (info.instagram)  instaBtn.href  = 'https://www.instagram.com/' + info.instagram.replace('@','');  else instaBtn.style.display  = 'none'; }
-    if (tiktokBtn) { if (info.tiktok)     tiktokBtn.href = 'https://www.tiktok.com/@'    + info.tiktok.replace('@','');    else tiktokBtn.style.display = 'none'; }
+    if (instaBtn)  { if (info.instagram)  instaBtn.href  = 'https://www.instagram.com/' + info.instagram;  else instaBtn.style.display  = 'none'; }
+    if (tiktokBtn) { if (info.tiktok)     tiktokBtn.href = 'https://www.tiktok.com/@'    + info.tiktok;    else tiktokBtn.style.display = 'none'; }
   }
 
   /* ══════════════════════════════════════════
