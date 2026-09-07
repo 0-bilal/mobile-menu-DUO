@@ -10,7 +10,7 @@ const restaurantInfo = {
   taglineAr:    'نكهة لا تُنسى في كل قضمة',
   logo:         'images/logo.ico',
   phone:        '..قريبا',
-  workingHours: 'م12:00 - ص03:00',
+  workingHours: 'م02:00 - ص03:00',
   workingDays:  'طوال أيام الأسبوع',
 
   /* ─────────────────────────────────────────────────────────
