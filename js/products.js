@@ -46,6 +46,7 @@ const menuCategories = [
         nameEn:        'Double DUO Burger',
         image:         'images/products/duo-burger.jpg',
         price:         23,
+        mealPrice:     33,
         calories:      630,
         descriptionAr: 'برجر اسماش دبل 140 غرام من اللحم المشوي، مع صوص يعطي لذعة حموضة',
         ingredients: [
@@ -61,6 +62,7 @@ const menuCategories = [
         nameEn:        'Double Origa Burger',
         image:         'images/products/origa-burger.jpg',
         price:         23,
+        mealPrice:     33,
         calories:      946,
         descriptionAr: 'برجر اسماش دبل 140 غرام من اللحم المشوي، مع صوص يعطي اللحمة بعضاً من الحلاوة',
         ingredients: [
@@ -75,6 +77,7 @@ const menuCategories = [
         nameEn:        'Double Truffle Burger',
         image:         'images/products/truffle-burger.jpg',
         price:         26,
+        mealPrice:     36,
         descriptionAr: 'برجر اسماش دبل 140 غرام لعشاق النكهات العميقة والفريدة، يقدّم مزيجاً لا يُقاوم من المكونات الفاخرة',
         ingredients: [
           { nameAr: 'خبز بريوش', removable: false },
@@ -90,14 +93,6 @@ const menuCategories = [
         price:         6,
         calories:      120,
         descriptionAr: 'كملها بإضافة شريحة لحم على البرجر ليصبح تريبل أو كوارتر — تصل شريحة اللحم الواحدة 70 غم',
-      },
-      {
-        nameAr:        'وجبة برجر',
-        nameEn:        'Burger Meal',
-        image:         'images/products/burger-meal.jpg',
-        price:         33,
-        isMeal:        true,
-        descriptionAr: 'وجبة من البرجر ديو أو أوريغا مع البطاطس المقلية المبهّرة والمشروب',
       },
     ],
   },
